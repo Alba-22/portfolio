@@ -1,0 +1,77 @@
+baseURL = "https://alba.dev/"
+languageCode = "pt-br"
+title = "Gustavo Alba"
+theme = "hello-friend-ng"
+paginate = 30
+
+[params]
+dateform = "Jan 2, 2006"
+dateformShort = "Jan 2"
+dateformNum = "2006-01-02"
+dateformNumTime = "2006-01-02 15:04"
+
+homeSubtitle = "Desenvolvedor Mobile"
+
+# Set disableReadOtherPosts to true in order to hide the links to other posts.
+disableReadOtherPosts = true
+
+# Enable sharing buttons, if you like
+enableSharingButtons = true
+
+# Show a global language switcher in the navigation bar
+enableGlobalLanguageMenu = false
+
+# Metadata mostly used in document's head
+description = "My new homepage or blog"
+keywords = "homepage, blog"
+images = [""]
+
+[params.logo]
+logoText = "alba.dev"
+logoHomeLink = "/"
+
+[params.portrait]
+path = "me.png"
+maxWidth = "240px"
+
+[taxonomies]
+category = "blog"
+tag = "tags"
+series = "series"
+
+[menus]
+[[menu.main]]
+identifier = "blog"
+name = "Artigos"
+url = "/posts"
+weight = 20
+
+[[menu.main]]
+identifier = "about"
+name = "Sobre mim"
+url = "/about"
+
+# [[menu.main]]
+# identifier = "projects"
+# name = "Projetos"
+# url = "/projects"
+
+[[params.social]]
+name = "linkedin"
+url = "https://www.linkedin.com/in/alba22/"
+
+[[params.social]]
+name = "github"
+url = "https://www.github.com/Alba-22/"
+
+[[params.social]]
+name = "email"
+url = "mailto:contato@alba.dev"
+
+[[params.social]]
+name = "twitter"
+url = "https://twitter.com/zAlba22"
+
+[[params.social]]
+name = "discord"
+url = "https://discord.com/users/304785670520700928"
