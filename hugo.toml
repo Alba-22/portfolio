@@ -47,6 +47,11 @@ url = "/posts"
 weight = 20
 
 [[menu.main]]
+identifier = "cv"
+name = "CV"
+url = "/cv"
+
+[[menu.main]]
 identifier = "about"
 name = "Sobre mim"
 url = "/about"
